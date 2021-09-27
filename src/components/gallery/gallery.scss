@@ -1,13 +1,43 @@
+@import '../variables.scss';
+
 .gallery {
   border: 1px solid red;
+  text-align: center;
+
+  h2 {
+    color: $brand-primary;
+  }
+
+  > p {
+    color: $brand-secondary;
+  }
+
   ul {
     list-style: none;
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 0;
+    max-width: 810px;
+    margin: 0 auto;
+
     li {
       color: green;
+      margin: 10px 5px;
+
       img {
-        height: 200px;
+        height: 315px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 6px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .gallery ul {
+    justify-content: space-evenly;
   }
 }

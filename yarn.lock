@@ -7353,6 +7353,11 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
+nanocolors@^0.2.2:
+  version "0.2.10"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/nanocolors/-/nanocolors-0.2.10.tgz#a712df4d3c1bf12d9b4fb8b5aa61b5ba31337503"
+  integrity sha1-pxLfTTwb8S2bT7i1qmG1ujEzdQM=
+
 nanoid@^3.1.20:
   version "3.1.20"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
@@ -8321,6 +8326,11 @@ postcss-media-minmax@^4.0.0:
   dependencies:
     postcss "^7.0.2"
 
+postcss-media-query-parser@^0.2.3:
+  version "0.2.3"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz#27b39c6f4d94f81b1a73b8f76351c609e5cef244"
+  integrity sha1-J7Ocb02U+Bsac7j3Y1HGCeXO8kQ=
+
 postcss-merge-longhand@^4.0.11:
   version "4.0.11"
   resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-4.0.11.tgz#62f49a13e4a0ee04e7b98f42bb16062ca2549e24"
@@ -8624,6 +8634,11 @@ postcss-replace-overflow-wrap@^3.0.0:
   dependencies:
     postcss "^7.0.2"
 
+postcss-resolve-nested-selector@^0.1.1:
+  version "0.1.1"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/postcss-resolve-nested-selector/-/postcss-resolve-nested-selector-0.1.1.tgz#29ccbc7c37dedfac304e9fff0bf1596b3f6a0e4e"
+  integrity sha1-Kcy8fDfe36wwTp//C/FZaz9qDk4=
+
 postcss-safe-parser@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-5.0.2.tgz#459dd27df6bc2ba64608824ba39e45dacf5e852d"
@@ -8674,6 +8689,14 @@ postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
     util-deprecate "^1.0.2"
+
+postcss-sorting@^5.0.1:
+  version "5.0.1"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/postcss-sorting/-/postcss-sorting-5.0.1.tgz#10d5d0059eea8334dacc820c0121864035bc3f11"
+  integrity sha1-ENXQBZ7qgzTazIIMASGGQDW8PxE=
+  dependencies:
+    lodash "^4.17.14"
+    postcss "^7.0.17"
 
 postcss-svgo@^4.0.2:
   version "4.0.2"
@@ -8730,6 +8753,14 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, po
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+postcss@^7.0.31:
+  version "7.0.38"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/postcss/-/postcss-7.0.38.tgz#5365a9c5126643d977046ad239f60eadda2491d6"
+  integrity sha1-U2WpxRJmQ9l3BGrSOfYOrdokkdY=
+  dependencies:
+    nanocolors "^0.2.2"
+    source-map "^0.6.1"
 
 postcss@^8.1.0:
   version "8.2.6"
@@ -10331,6 +10362,46 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
+
+stylelint-config-recommended@^5.0.0:
+  version "5.0.0"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/stylelint-config-recommended/-/stylelint-config-recommended-5.0.0.tgz#fb5653f495a60b4938f2ad3e77712d9e1039ae78"
+  integrity sha1-+1ZT9JWmC0k48q0+d3EtnhA5rng=
+
+stylelint-config-sass-guidelines@^8.0.0:
+  version "8.0.0"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/stylelint-config-sass-guidelines/-/stylelint-config-sass-guidelines-8.0.0.tgz#e92279aa052a04e822dd096d7c46c8e37d4b3406"
+  integrity sha1-6SJ5qgUqBOgi3QltfEbI431LNAY=
+  dependencies:
+    stylelint-order "^4.0.0"
+    stylelint-scss "^3.18.0"
+
+stylelint-config-standard@^22.0.0:
+  version "22.0.0"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/stylelint-config-standard/-/stylelint-config-standard-22.0.0.tgz#c860be9a13ebbc1b084456fa10527bf13a44addf"
+  integrity sha1-yGC+mhPrvBsIRFb6EFJ78TpErd8=
+  dependencies:
+    stylelint-config-recommended "^5.0.0"
+
+stylelint-order@^4.0.0:
+  version "4.1.0"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/stylelint-order/-/stylelint-order-4.1.0.tgz#692d05b7d0c235ac66fcf5ea1d9e5f08a76747f6"
+  integrity sha1-aS0Ft9DCNaxm/PXqHZ5fCKdnR/Y=
+  dependencies:
+    lodash "^4.17.15"
+    postcss "^7.0.31"
+    postcss-sorting "^5.0.1"
+
+stylelint-scss@^3.18.0:
+  version "3.21.0"
+  resolved "https://dev-artifacts.dc.c-gurus.com:443/artifactory/api/npm/npm-registry/stylelint-scss/-/stylelint-scss-3.21.0.tgz#9f50898691b16b1c1ca3945837381d98c5b22331"
+  integrity sha1-n1CJhpGxaxwco5RYNzgdmMWyIzE=
+  dependencies:
+    lodash "^4.17.15"
+    postcss-media-query-parser "^0.2.3"
+    postcss-resolve-nested-selector "^0.1.1"
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.1.0"
 
 supports-color@^5.3.0:
   version "5.5.0"

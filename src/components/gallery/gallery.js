@@ -45,11 +45,12 @@ class Gallery extends Component {
   render() {
     return (
         <div className="gallery">
-          this is the gallery
+          <h2>This is the gallery</h2>
+          <p>It's all about food</p>
           <ul>
             {this.state.recipes.map((recipeObject)=> {
               return <li key={recipeObject.name}>
-                <span className="recipeName">{recipeObject.name}</span>
+                {/* <span className="recipeName">{recipeObject.name}</span> */}
                 <a href={recipeObject.recipeUrl}>
                   <img src={recipeObject.imageUrl} alt={recipeObject.name}/>
                 </a>
