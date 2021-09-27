@@ -5,9 +5,9 @@ class Footer extends Component {
   render() {
     return (
         <div className="footer">
-          <p>these are some of casie's favorite recipes</p>
+          <p>These are some of Ricardo's favorite recipes</p>
           <p>mmm mmm, that's good food! © ℗®™</p>
-          <img src="https://5iyg119fkst3r2lyyhftyvwd-wpengine.netdna-ssl.com/wp-content/uploads/2021/08/casie.jpg" alt="casie with pink hair"/>
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFX3LbyNWCX2g/profile-displayphoto-shrink_800_800/0/1517548618379?e=1638403200&v=beta&t=ebs-bDk1QYSuCS6BI3eplnWRPxu_bokr1h3ZRWyRtQU" alt="ricardo with pink hair"/>
         </div>
   )}
 }

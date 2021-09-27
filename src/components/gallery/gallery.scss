@@ -1,0 +1,13 @@
+.gallery {
+  border: 1px solid red;
+  ul {
+    list-style: none;
+    display: inline;
+    li {
+      color: green;
+      img {
+        height: 200px;
+      }
+    }
+  }
+}
