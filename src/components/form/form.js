@@ -34,11 +34,11 @@ class Form extends Component {
     return (
         <div className="form">
           <div className="input-form">
-            <label htmlFor="name">name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" id="name" onChange={(e) => {this.onChange(e, "name")}}/>
-            <label htmlFor="imageUrl">image url:</label>
+            <label htmlFor="imageUrl">Image url:</label>
             <input type="text" id="imageUrl" onChange={(e) => {this.onChange(e, "imageUrl")}}/>
-            <label htmlFor="recipeUrl">recipe url:</label>
+            <label htmlFor="recipeUrl">Recipe url:</label>
             <input type="text" id="recipeUrl" onChange={(e) => {this.onChange(e, "recipeUrl")}}/>
             <button onClick={this.onSubmit}>Submit</button>
           </div>

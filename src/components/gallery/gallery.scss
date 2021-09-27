@@ -1,7 +1,6 @@
 @import '../variables.scss';
 
 .gallery {
-  border: 1px solid red;
   text-align: center;
 
   h2 {
@@ -33,7 +32,7 @@
   }
 }
 
-@media only screen and (max-width: 545px) {
+@media only screen and (max-width: 779px) {
   .gallery ul {
     justify-content: space-evenly;
   }
